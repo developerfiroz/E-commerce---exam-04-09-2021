@@ -1,0 +1,408 @@
+/* font-family: 'Saira Condensed', sans-serif;
+font-family: 'Sarabun', sans-serif; */
+/* media quaries start*/
+
+@media screen and (max-width: 1200px) {
+  .nav-item> a{
+    font-size: 20px !important;
+    color: rgb(46, 5, 226) !important;
+    padding: 0px 5px !important;
+
+    }
+    
+}
+
+/* media quaries end*/
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Saira Condensed', sans-serif;
+  background: #fff;
+  color: rgb(51, 51, 51);
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 0;
+  margin: 0 0 20px 0;
+  color: #000;
+}
+
+/* header section start */
+/* header top section start */
+#border {
+border: 3px solid black;
+padding: 0px 10px !important;
+}
+.nav-item{
+  margin: 0px 15px !important;
+  padding: 0px !important;
+}
+.navbar-nav .nav-item a{
+font-size: 24px;
+color: black !important;
+}
+.nav-icon{
+  color: #000;
+  font-size: 20px !important;
+  margin:0 10px !important;
+  text-decoration: none;
+}
+.nav-icon:hover{
+  color: #000;
+}
+/* header top section end */
+
+/* header body section start */
+.bg-color{
+  background-color: #E5E5E5;
+  margin-top: 68px;
+}
+.hb-text {
+  margin-top: 80px;
+}
+.hb-text span{
+  font-size: 18px;
+  font-weight: 400;
+  color: #685c5c;
+}
+.hb-text h2{
+  font-size: 80px;
+  text-transform: capitalize;
+}
+.hb-text h4{
+  font-size: 42px;
+  font-weight: 500;
+  color: #413a3a;
+}
+.hb-text p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #6a5d5d;
+  padding: 0 20px;
+}
+.hb-btn{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 15px;
+  padding: 3px 40px;
+  border: 2px solid black;
+  transition:  .8s;
+}
+.hb-btn:hover{
+  color: #fff;
+  background-color: black ;
+}
+/* header body section end */
+
+/* header section end */
+
+/*  main section start */
+/* category section start */
+.cat-box{
+  position: relative;
+  transition: .4s;
+  box-sizing: border-box;
+}
+.cat-box .cat-tex{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 45px 0 45px;
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 10px;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 37px;
+  font-weight: 400;
+  transition: .5s;
+}
+.cat-tex p{
+  font-size: 18px;
+  display: none;
+}
+.cat-box:hover p{
+  display: block;
+}
+.cat-box:hover .cat-tex{
+  background: rgba(255, 255, 255, 0.65);
+  margin: 0 35px;
+  margin-bottom: 25px; 
+  padding: 15px;
+}
+/* category section end */
+
+/* product section start */
+.product h2{
+  font-size: 54px;
+  font-weight: 500;
+  color: #000;
+}
+.product h6{
+  font-size: 36px;
+  font-weight: 400;
+  color: #464141;
+  margin: 0;
+}
+.product span{
+  font-size: 36px;
+  font-weight: 500;
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+.card-btn{
+  text-decoration: none;
+  color: black;
+  font-size: 36px;
+  font-weight: 500;
+  padding: 5px 20px;
+  border: 3px solid black;
+  transition:  .8s;
+  position: absolute;
+}
+.card-btn:hover{
+  color: #fff;
+  background-color: black ;
+}
+.card-icon p, a {
+  display: inline;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 500;
+  color: #ff7d05;
+}
+.card-icon a:hover{
+  color: #ff7d05;
+}
+.ct-icon{
+  margin-top: 20%;
+}
+
+.card-icon .heart{
+  margin-top: 78%;
+}
+.card-box{
+  position: relative;
+  transition: .4s;
+}
+.card-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+}
+.card-box:hover .card-icon{
+  visibility: visible;
+  opacity: 1;
+}
+/* product section end */
+
+/*  fashion section start */
+  .fashion{
+    position: relative;
+  }
+  .fashion .fashion-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0 50px;
+    margin-top: 155px;
+    background: #fff;
+    padding: 10px;
+    padding-bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    transition: .3s;
+
+  }
+  .fashion .fashion-text h3{
+    color: black;
+    font-size: 32px;
+    padding: 15px 0;
+  }
+  .fashion:hover .fashion-text h3{
+    padding: 0px;
+    margin: 10px 0;
+  }
+  .fashion .fashion-text p{
+    display: none;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .fashion:hover .fashion-text p{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 2.1rem;
+    display: block;
+  }
+  .fashion:hover .fashion-text{
+    margin:0 55px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.801);
+    padding: 45px;
+  }
+/*  fashion section end */
+
+/* blog section start */
+  .blog h2{
+    text-align: center;
+    font-size: 54px;
+    font-weight: 500;
+    color: #000;
+  }
+  .blog-text h2{
+    font-size: 38px;
+    font-weight: 600;
+  }
+  .blog-text span{
+    font-size: 24px;
+    font-weight: 300;
+    color: #494343;
+  }
+  .blog-text a{
+    font-size: 24px;
+    font-weight: 300;
+    color: #494343;
+  }
+/* blog section end */
+
+/* clients section start */
+.clients h2{
+  font-size: 54px;
+  text-align: center;
+  padding: 25px 0px 5px 0px;
+  font-weight: 500;
+   color: #000;
+}
+.img-box{
+display: flex;
+margin-bottom: 20px;
+flex-wrap: wrap;
+}
+.img-item{
+  max-width: 135px;
+  cursor: pointer;
+  transition: .4s;
+}
+.img-item:hover{
+  transform: scale(1.3);
+}
+/* clients section end */
+/* newsletter section start */
+.newsletter-l h6{
+  font-family: Sarabun,sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+.newsletter-l p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #000;
+}
+.newsletter-l #input-bg{
+  background-color: #E2E9EA !important;
+}
+.newsletter-r .btn-news{
+  vertical-align: top;
+  font-size: 29px;
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-weight: 500;
+  padding: 1px 10px;
+  border: 2px solid black;
+  transition:  .8s;
+}
+
+.newsletter-r .btn-news:hover{
+  color: #fff;
+  background-color: black ;
+}
+/* newsletter section end */
+/*  main section end */
+
+/* footer section start */
+/* footer top section start */
+.footer-box h6 {
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #000;
+}
+.footer-box ul li {
+  list-style-type: none;
+  transition: .5s;
+}
+.footer-box ul li:hover {
+  transform: translateX(10px);
+}
+.footer-box span, .footer-box> ul> li> a {
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #766a6a;
+  transition: .5s;
+}
+.footer-box p {
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #766a6a;
+  transition: .5s;
+  margin-bottom: 10px;
+}
+.footer-box ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.footer-box span {
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #766a6a;
+  transition: .5s;
+}
+
+/* footer top section end */
+
+/* footer bottom section start */
+
+.footer-text{
+  font-family: 'Saira Semi Condensed',sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  margin-left: 10px;
+}
+.top-btn{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  color: #413a3a;
+}
+.top-btn:hover{
+  color: #000;
+}
+/* footer bottom section end */
+
+
+
+
+/* footer section end */
